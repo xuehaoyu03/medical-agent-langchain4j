@@ -29,7 +29,7 @@ public class MongoCrudTest {
     @Test
     public void testInsert2(){
         ChatMessages chatMessages = new ChatMessages();
-        chatMessages.setContent("聊天记录列表");
+        chatMessages.setContent("聊天记录列表12");
         mongoTemplate.insert(chatMessages);
     }
 

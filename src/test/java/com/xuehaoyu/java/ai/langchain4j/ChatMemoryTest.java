@@ -90,6 +90,5 @@ public class ChatMemoryTest {
 
         System.out.println(answer2);
         System.out.println(answer3);
-
     }
 }
