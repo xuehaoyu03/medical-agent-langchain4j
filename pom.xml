@@ -16,7 +16,7 @@
         <knife4j.version>4.3.0</knife4j.version>
         <langchain4j.version>1.0.3-beta3</langchain4j.version>
         <langchain4j-ai.version>1.1.0</langchain4j-ai.version>
-        <mybatis-plus.version>3.5.11</mybatis-plus.version>
+        <mybatis-plus.version>3.0.3</mybatis-plus.version>
     </properties>
 
     <dependencies>
@@ -74,7 +74,7 @@
         <dependency>
             <groupId>com.baomidou</groupId>
             <artifactId>mybatis-plus-spring-boot3-starter</artifactId>
-            <version>3.5.4</version>
+            <version>3.5.9</version>
         </dependency>
 
         <!--解析pdf文档-->
@@ -89,6 +89,20 @@
             <artifactId>langchain4j-easy-rag</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>dev.langchain4j</groupId>
+            <artifactId>langchain4j-pinecone</artifactId>
+        </dependency>
+
+        <!--流式输出-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-webflux</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>dev.langchain4j</groupId>
+            <artifactId>langchain4j-reactor</artifactId>
+        </dependency>
     </dependencies>
 
     <dependencyManagement>
